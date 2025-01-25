@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-simple {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/* header */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    
+}
+.nav div{
+    display: flex;
+    align-items: center;
+}
+nav div span{
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 11px;
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.fa-solid{
+    display: none;
+}
+.orange{
+    color: #FEA301;
+}
+.skyblue{
+    color: #01ACFD;
+}
+.cyan{
+    color: #05D4DF;
+}
+.purple{
+    color: #5D58EF;
+}
+nav button{
+    background-color: #FEA301;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 60.5px;
+    margin: 6px 0;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.header-text{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.header-para{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.header-btn{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 47px;
+    border-radius: 12px;
+}
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .header-section{
+        max-width: 358px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .nav{
+        border-bottom: 1px solid #FEA301;
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .school{
+        display: none;
+    }
+    .logo{
+        margin: 12px 16px;
+    }
+    .nav ul{
+        display: none;
+       
+    }
+    .nav button{
+        display: none;
+    }
+    .fa-solid{
+        display: inline-flex;
+        height: 30px;
+        width: 30px;
+        margin-top: 12px;
+        margin-right: 16px;
+        
+    }
+    .header-section img{
+        width: 100%;
+        margin: 20px 10px;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .header-text{
+        font-size: 32px;
+    }
+ 
+    .header-para{
+        font-weight: 500;
+        font-size: 14px;
+    
+    }
+    .header-btn{
+        font-size: 16px;
+        padding: 6px 24px;
+        border-radius: 8px;
+    }
+}
