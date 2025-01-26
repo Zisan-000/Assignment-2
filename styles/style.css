@@ -16,6 +16,18 @@ button:hover{
 
 /* header */
 
+.marq {
+    background: linear-gradient(#01acfd,#05d4df);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+}
+.marq span{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .nav {
   max-width: 1160px;
   margin: 0 auto;
